@@ -85,6 +85,15 @@
 #define SET_DBASE ""
 #endif
 
+#ifdef SPLICE
+#define GEN_QUERY_PLAN ""
+#define START_TRAN "BEGIN WORK"
+#define END_TRAN "COMMIT WORK"
+#define SET_OUTPUT ""
+#define SET_ROWCOUNT "{limit %d}"
+#define SET_DBASE ""
+#endif
+
 #ifdef 	SQLSERVER
 #define GEN_QUERY_PLAN  "set showplan on\nset noexec on\ngo\n"
 #define START_TRAN      "begin transaction\ngo\n"
