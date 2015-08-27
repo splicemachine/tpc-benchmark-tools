@@ -1,4 +1,4 @@
-# TPC-H generation
+# TPC-H dataset generation
 
 ## Prerequisites
 You'll need build RPMs installed on a CentOS box. In the colo, there's a script to facilitate this. As the `splice` user run this to install and verify that you have **make** and the **gcc** C compiler:
@@ -60,7 +60,7 @@ ls -al /mapr/clustername/TPCH/1
 ## Dataset generation examples
 Generate TPC-H 1 into a subdirectory, using force and verbose:
 ```
-export DSS_PATH="${PWD}/TPCH/1
+export DSS_PATH="${PWD}/TPCH/1"
 mkdir -p ${DSS_PATH}
 ./dbgen -v -f -s 1
 ```
