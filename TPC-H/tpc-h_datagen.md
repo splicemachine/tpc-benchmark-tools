@@ -58,11 +58,19 @@ ls -al /mapr/clustername/TPCH/1
 ```
 
 ## Dataset generation examples
+### 1(GB) scale-factor
 Generate TPC-H 1 into a subdirectory, using force and verbose:
 ```
 export DSS_PATH="${PWD}/TPCH/1"
 mkdir -p ${DSS_PATH}
 ./dbgen -v -f -s 1
+```
+### 10(GB) scale-factor
+Quietly generate TPC-H 10 into a subdirectory, force overwrite:
+```
+export DSS_PATH="${PWD}/TPCH/10"
+mkdir -p ${DSS_PATH}
+./dbgen -q -f -s 10
 ```
 
 ## Useful `dbgen` options
