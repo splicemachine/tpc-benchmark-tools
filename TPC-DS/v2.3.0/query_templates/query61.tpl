@@ -80,4 +80,3 @@ from
    and   d_moy  = [MONTH]) all_sales
 order by promotions, total
 [_LIMITC];
-

@@ -84,5 +84,3 @@ select case when (select count(*)
 from reason
 where r_reason_sk = 1
 ;
- 
-

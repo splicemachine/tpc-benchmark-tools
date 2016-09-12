@@ -58,7 +58,3 @@ define _LIMIT=100;
 GROUP BY channel, col_name, d_year, d_qoy, i_category
 ORDER BY channel, col_name, d_year, d_qoy, i_category
 [_LIMITC];
-
- 
- 
-

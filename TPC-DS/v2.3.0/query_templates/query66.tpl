@@ -258,4 +258,3 @@
        ,year
  order by w_warehouse_name
  [_LIMITC];
-

@@ -55,4 +55,3 @@
          ,sum_agg desc
          ,brand_id
  [_LIMITC];
-

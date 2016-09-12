@@ -61,4 +61,3 @@ order by i_manager_id
         ,avg_monthly_sales
         ,sum_sales
 [_LIMITC];
-

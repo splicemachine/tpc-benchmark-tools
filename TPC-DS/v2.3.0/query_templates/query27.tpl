@@ -65,4 +65,3 @@
  order by i_item_id
          ,s_state
  [_LIMITC];
-

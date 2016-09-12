@@ -55,5 +55,3 @@
  	,ext_price desc
  	,brand_id
 [_LIMITC] ;
-
-

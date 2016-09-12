@@ -62,4 +62,3 @@ and cs_ext_discount_amt
           and d_date_sk = cs_sold_date_sk 
       ) 
 [_LIMITC]; 
-

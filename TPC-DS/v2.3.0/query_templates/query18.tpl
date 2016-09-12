@@ -70,4 +70,3 @@
         ca_county,
 	i_item_id
  [_LIMITC];
-

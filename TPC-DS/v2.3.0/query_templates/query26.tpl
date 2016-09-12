@@ -56,6 +56,3 @@
  group by i_item_id
  order by i_item_id
  [_LIMITC];
- 
- 
-

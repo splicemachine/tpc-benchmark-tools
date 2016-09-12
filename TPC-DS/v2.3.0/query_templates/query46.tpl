@@ -75,4 +75,3 @@
           ,bought_city
           ,ss_ticket_number
   [_LIMITC];
-

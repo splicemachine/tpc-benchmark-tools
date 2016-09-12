@@ -93,4 +93,3 @@ order by s_store_name
         ,s_state
         ,s_zip
 [_LIMITC];
-

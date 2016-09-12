@@ -76,6 +76,3 @@ order by i_category
         ,sumsales
         ,rk
 [_LIMITC];
- 
- 
-

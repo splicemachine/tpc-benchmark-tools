@@ -72,5 +72,3 @@ and not exists(select *
                where cs1.cs_order_number = cr1.cr_order_number)
 order by count(distinct cs_order_number)
 [_LIMITC];
-
-

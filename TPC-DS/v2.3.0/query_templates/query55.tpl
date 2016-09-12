@@ -48,5 +48,3 @@
  group by i_brand, i_brand_id
  order by ext_price desc, i_brand_id
 [_LIMITC] ;
-
-

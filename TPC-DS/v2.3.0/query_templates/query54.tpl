@@ -92,4 +92,3 @@
  group by segment
  order by segment, num_customers
  [_LIMITC];
- 

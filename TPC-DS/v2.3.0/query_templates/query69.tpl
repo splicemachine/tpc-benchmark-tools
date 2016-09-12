@@ -81,5 +81,3 @@
           cd_purchase_estimate,
           cd_credit_rating
  [_LIMITC];
- 
-

@@ -60,5 +60,3 @@
          ,i_manufact_id
          ,i_manufact
 [_LIMITC] ;
-
-

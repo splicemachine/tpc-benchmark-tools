@@ -52,6 +52,3 @@
  group by i_item_id,i_item_desc,i_current_price
  order by i_item_id
  [_LIMITC];
- 
- 
-

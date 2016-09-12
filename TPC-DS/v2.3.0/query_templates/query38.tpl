@@ -55,4 +55,3 @@ define _LIMIT=100;
       and d_month_seq between [DMS] and [DMS] + 11
 ) hot_cust
 [_LIMITC];
-

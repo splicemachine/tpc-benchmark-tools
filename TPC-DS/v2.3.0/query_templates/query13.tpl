@@ -86,4 +86,3 @@
   and ss_net_profit between 50 and 250  
      ))
 ;
-

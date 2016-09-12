@@ -96,4 +96,3 @@
            > case when t_s_firstyear.year_total > 0 then t_s_secyear.year_total / t_s_firstyear.year_total else null end
  order by [ORDERC.1],[ORDERC.2],[ORDERC.3]
 [_LIMITC];
-

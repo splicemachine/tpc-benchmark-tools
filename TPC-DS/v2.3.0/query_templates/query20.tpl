@@ -64,4 +64,3 @@
          ,i_item_desc
          ,revenueratio
 [_LIMITC];
-

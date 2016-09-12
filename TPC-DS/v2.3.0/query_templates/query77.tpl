@@ -141,5 +141,3 @@
  order by channel
          ,id
  [_LIMITC];
- 
-

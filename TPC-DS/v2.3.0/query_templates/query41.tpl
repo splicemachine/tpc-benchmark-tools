@@ -87,4 +87,3 @@
         )))) > 0
  order by i_product_name
  [_LIMITC];
-

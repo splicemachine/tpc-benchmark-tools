@@ -79,4 +79,3 @@
  order by c_last_name
          ,ss_ticket_number
  [_LIMITC];
-

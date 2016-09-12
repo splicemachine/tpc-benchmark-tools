@@ -77,4 +77,3 @@
          ,i_item_desc
          ,s_state
 [_LIMITC];
-
