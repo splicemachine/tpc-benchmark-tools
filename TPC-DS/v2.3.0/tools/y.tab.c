@@ -663,7 +663,7 @@ yyreduce:
     yyval = yyvsp[1-yym];
     switch (yyn)
     {
-case 1:
+/* case 1:
 #line 148 "qgen.y"
 {
 							AddQuerySegment(pCurrentQuery, "\n");
@@ -671,6 +671,7 @@ case 1:
 							AddQuerySegment(pCurrentQuery, "\n");
 						}
 break;
+*/
 case 3:
 #line 157 "qgen.y"
 {
