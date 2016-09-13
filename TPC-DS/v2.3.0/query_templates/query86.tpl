@@ -56,4 +56,6 @@
    lochierarchy desc,
    case when lochierarchy = 0 then i_category end,
    rank_within_parent
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 86
+;

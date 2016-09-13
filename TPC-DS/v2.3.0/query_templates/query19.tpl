@@ -59,4 +59,6 @@
          ,i_brand_id
          ,i_manufact_id
          ,i_manufact
-[_LIMITC] ;
+[_LIMITC]
+-- END OF QUERY 19
+;

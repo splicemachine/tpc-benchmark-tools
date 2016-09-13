@@ -101,4 +101,6 @@
    and sr_items.item_id=wr_items.item_id 
  order by sr_items.item_id
          ,sr_item_qty
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 83
+;

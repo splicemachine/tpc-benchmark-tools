@@ -85,4 +85,5 @@
   and ca_state in ('[STATE.7]', '[STATE.8]', '[STATE.9]')
   and ss_net_profit between 50 and 250  
      ))
+-- END OF QUERY 13
 ;

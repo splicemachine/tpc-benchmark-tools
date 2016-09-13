@@ -60,4 +60,6 @@ where case when avg_quarterly_sales > 0
 order by avg_quarterly_sales,
 	 sum_sales,
 	 i_manufact_id
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 53
+;

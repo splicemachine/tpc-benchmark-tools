@@ -57,4 +57,6 @@ define _LIMIT=100;
            AND cs_item_sk=i_item_sk) foo
 GROUP BY channel, col_name, d_year, d_qoy, i_category
 ORDER BY channel, col_name, d_year, d_qoy, i_category
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 76
+;

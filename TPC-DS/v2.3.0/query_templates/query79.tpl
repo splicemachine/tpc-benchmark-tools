@@ -56,4 +56,6 @@
     group by ss_ticket_number,ss_customer_sk,ss_addr_sk,store.s_city) ms,customer
     where ss_customer_sk = c_customer_sk
  order by c_last_name,c_first_name,substr(s_city,1,30), profit
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 79
+;

@@ -125,4 +125,5 @@ from
           (household_demographics.hd_dep_count = [HOUR.2] and household_demographics.hd_vehicle_count<=[HOUR.2]+2) or
           (household_demographics.hd_dep_count = [HOUR.3] and household_demographics.hd_vehicle_count<=[HOUR.3]+2))
      and store.s_store_name = 'ese') s8
+-- END OF QUERY 88
 ;

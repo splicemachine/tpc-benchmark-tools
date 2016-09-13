@@ -82,4 +82,6 @@
         avg_monthly_sales > 0 and
         case when avg_monthly_sales > 0 then abs(sum_sales - avg_monthly_sales) / avg_monthly_sales else null end > 0.1
  order by sum_sales - avg_monthly_sales, 3
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 57
+;

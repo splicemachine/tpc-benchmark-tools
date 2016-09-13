@@ -134,4 +134,5 @@ group by c_last_name
         ,s_store_name
 having sum(netpaid) > (select 0.05*avg(netpaid)
                            from ssales)
+-- END OF QUERY 24
 ;

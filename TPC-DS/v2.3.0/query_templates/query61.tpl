@@ -79,4 +79,6 @@ from
    and   d_year = [YEAR]
    and   d_moy  = [MONTH]) all_sales
 order by promotions, total
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 61
+;

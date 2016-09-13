@@ -71,4 +71,6 @@ and not exists(select *
                from catalog_returns cr1
                where cs1.cs_order_number = cr1.cr_order_number)
 order by count(distinct cs_order_number)
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 16
+;

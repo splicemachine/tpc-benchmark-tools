@@ -92,4 +92,6 @@ order by s_store_name
         ,s_county
         ,s_state
         ,s_zip
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 50
+;

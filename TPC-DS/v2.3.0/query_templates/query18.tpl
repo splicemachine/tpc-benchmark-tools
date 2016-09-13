@@ -69,4 +69,6 @@
         ca_state, 
         ca_county,
 	i_item_id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 18
+;

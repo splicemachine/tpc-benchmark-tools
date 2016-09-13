@@ -66,4 +66,6 @@ order by
         ,i_class
         ,i_item_id
         ,i_item_desc
-        ,revenueratio;
+        ,revenueratio
+-- END OF QUERY 98
+;

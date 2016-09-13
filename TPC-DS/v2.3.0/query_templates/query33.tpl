@@ -110,4 +110,6 @@ where i_category in ('[CATEGORY]'))
         select * from ws) tmp1
  group by i_manufact_id
  order by total_sales
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 33
+;

@@ -68,4 +68,6 @@ order by
         ,i_item_id
         ,i_item_desc
         ,revenueratio
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 12
+;

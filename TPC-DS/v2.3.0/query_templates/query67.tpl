@@ -75,4 +75,6 @@ order by i_category
         ,s_store_id
         ,sumsales
         ,rk
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 67
+;

@@ -50,4 +50,6 @@ define _LIMIT=100;
               and r_reason_desc = '[REASON]') t
       group by ss_customer_sk
       order by sumsales, ss_customer_sk
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 93
+;

@@ -53,4 +53,6 @@
  	and d_qoy = [QOY] and d_year = [YEAR]
  group by ca_zip, [GBOBC]
  order by ca_zip, [GBOBC]
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 45
+;

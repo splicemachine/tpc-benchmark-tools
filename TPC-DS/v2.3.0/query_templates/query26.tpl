@@ -55,4 +55,6 @@
        d_year = [YEAR] 
  group by i_item_id
  order by i_item_id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 26
+;

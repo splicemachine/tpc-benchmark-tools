@@ -65,4 +65,6 @@ and     ( (cd_marital_status       = 'M' and cd_education_status     = 'Unknown'
 and     hd_buy_potential like '[BUY_POTENTIAL]%'
 and     ca_gmt_offset           = [GMT]
 group by cc_call_center_id,cc_name,cc_manager,cd_marital_status,cd_education_status
-order by sum(cr_net_loss) desc;
+order by sum(cr_net_loss) desc
+-- END OF QUERY 91
+;

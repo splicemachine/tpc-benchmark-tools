@@ -112,4 +112,6 @@ where i_category in ('[CATEGORY]'))
  group by i_item_id
  order by i_item_id
       ,total_sales
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 60
+;

@@ -54,4 +54,6 @@
  order by dt.d_year
          ,sum_agg desc
          ,brand_id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 03
+;

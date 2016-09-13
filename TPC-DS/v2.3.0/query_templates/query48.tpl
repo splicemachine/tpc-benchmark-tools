@@ -100,4 +100,5 @@
   and ss_net_profit between 50 and 25000 
   )
  )
+-- END OF QUERY 48
 ;

@@ -151,4 +151,6 @@ union all
          ,t_s_secyear.customer_first_name
          ,t_s_secyear.customer_last_name
          ,[SELECTONE]
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 04
+;

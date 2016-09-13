@@ -160,4 +160,6 @@
  group by rollup (channel, id)
  order by channel
          ,id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 05
+;

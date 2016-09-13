@@ -68,4 +68,6 @@ where asceding.rnk = descending.rnk
   and i1.i_item_sk=asceding.item_sk
   and i2.i_item_sk=descending.item_sk
 order by asceding.rnk
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 44
+;

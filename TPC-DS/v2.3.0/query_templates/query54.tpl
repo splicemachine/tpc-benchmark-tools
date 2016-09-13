@@ -91,4 +91,6 @@
  from segments
  group by segment
  order by segment, num_customers
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 54
+;

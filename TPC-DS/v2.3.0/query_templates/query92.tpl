@@ -64,4 +64,6 @@ and ws_ext_discount_amt
           and d_date_sk = ws_sold_date_sk 
       ) 
 order by sum(ws_ext_discount_amt)
-[_LIMITC]; 
+[_LIMITC] 
+-- END OF QUERY 92
+;

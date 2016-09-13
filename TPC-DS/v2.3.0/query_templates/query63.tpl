@@ -60,4 +60,6 @@ where case when avg_monthly_sales > 0 then abs (sum_sales - avg_monthly_sales) /
 order by i_manager_id
         ,avg_monthly_sales
         ,sum_sales
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 63
+;

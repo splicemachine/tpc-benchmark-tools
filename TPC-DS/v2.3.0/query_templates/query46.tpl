@@ -74,4 +74,6 @@
           ,ca_city
           ,bought_city
           ,ss_ticket_number
-  [_LIMITC];
+  [_LIMITC]
+-- END OF QUERY 46
+;

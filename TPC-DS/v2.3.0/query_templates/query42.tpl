@@ -54,4 +54,6 @@
  order by       sum(ss_ext_sales_price) desc,dt.d_year
  		,item.i_category_id
  		,item.i_category
-[_LIMITC] ;
+[_LIMITC]
+-- END OF QUERY 42
+;

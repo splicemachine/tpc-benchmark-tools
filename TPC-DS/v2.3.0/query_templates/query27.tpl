@@ -64,4 +64,6 @@
  group by rollup (i_item_id, s_state)
  order by i_item_id
          ,s_state
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 27
+;

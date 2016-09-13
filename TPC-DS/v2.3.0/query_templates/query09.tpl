@@ -83,4 +83,5 @@ select case when (select count(*)
                   where ss_quantity between 81 and 100) end bucket5
 from reason
 where r_reason_sk = 1
+-- END OF QUERY 09
 ;

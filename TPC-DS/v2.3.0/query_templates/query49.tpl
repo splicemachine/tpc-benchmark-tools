@@ -159,4 +159,6 @@
  store.currency_rank <= 10
  )
  order by 1,4,5
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 49
+;

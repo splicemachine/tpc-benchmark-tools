@@ -59,4 +59,6 @@
        s_store_sk = sc.ss_store_sk and
        i_item_sk = sc.ss_item_sk
  order by s_store_name, i_item_desc
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 65
+;

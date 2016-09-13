@@ -69,4 +69,6 @@
    lochierarchy desc
   ,case when lochierarchy = 0 then s_state end
   ,rank_within_parent
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 70
+;

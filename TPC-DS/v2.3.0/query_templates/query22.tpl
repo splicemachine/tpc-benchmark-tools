@@ -51,4 +51,6 @@ define DMS = random(1176,1224,uniform);
                        ,i_class
                        ,i_category)
 order by qoh, i_product_name, i_brand, i_class, i_category
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 22
+;

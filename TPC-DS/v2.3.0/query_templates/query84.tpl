@@ -53,4 +53,6 @@
    and hd_demo_sk = c_current_hdemo_sk
    and sr_cdemo_sk = cd_demo_sk
  order by c_customer_id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 84
+;

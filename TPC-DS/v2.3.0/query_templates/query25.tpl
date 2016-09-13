@@ -80,4 +80,6 @@
  ,i_item_desc
  ,s_store_id
  ,s_store_name
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 25
+;

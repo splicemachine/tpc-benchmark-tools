@@ -59,4 +59,6 @@ and s_store_sk = ctr1.ctr_store_sk
 and s_state = '[STATE]'
 and ctr1.ctr_customer_sk = c_customer_sk
 order by c_customer_id
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 01
+;

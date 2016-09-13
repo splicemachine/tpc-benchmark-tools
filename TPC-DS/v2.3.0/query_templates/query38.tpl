@@ -54,4 +54,6 @@ define _LIMIT=100;
       and web_sales.ws_bill_customer_sk = customer.c_customer_sk
       and d_month_seq between [DMS] and [DMS] + 11
 ) hot_cust
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 38
+;

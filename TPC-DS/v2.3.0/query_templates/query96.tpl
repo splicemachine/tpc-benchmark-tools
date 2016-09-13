@@ -49,4 +49,6 @@ where ss_sold_time_sk = time_dim.t_time_sk
     and household_demographics.hd_dep_count = [DEPCNT]
     and store.s_store_name = 'ese'
 order by count(*)
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 96
+;

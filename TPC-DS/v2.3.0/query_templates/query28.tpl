@@ -87,4 +87,6 @@ from (select avg(ss_list_price) B1_LP
         and (ss_list_price between [LISTPRICE.6] and [LISTPRICE.6]+10
           or ss_coupon_amt between [COUPONAMT.6] and [COUPONAMT.6]+1000
           or ss_wholesale_cost between [WHOLESALECOST.6] and [WHOLESALECOST.6]+20)) B6
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 28
+;

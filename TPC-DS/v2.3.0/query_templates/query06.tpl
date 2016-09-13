@@ -58,4 +58,6 @@
  group by a.ca_state
  having count(*) >= 10
  order by cnt 
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 06
+;

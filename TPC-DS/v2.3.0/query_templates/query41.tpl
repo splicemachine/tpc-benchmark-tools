@@ -86,4 +86,6 @@
         (i_size = '[SIZE.1]' or i_size = '[SIZE.2]')
         )))) > 0
  order by i_product_name
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 41
+;

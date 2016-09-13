@@ -61,4 +61,6 @@ and cs_ext_discount_amt
                              (cast('[CSDATE]' as date) + 90 days)
           and d_date_sk = cs_sold_date_sk 
       ) 
-[_LIMITC]; 
+[_LIMITC] 
+-- END OF QUERY 32
+;

@@ -141,4 +141,6 @@
   and (substr(s_zip,1,2) = substr(V1.ca_zip,1,2))
  group by s_store_name
  order by s_store_name
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 08
+;

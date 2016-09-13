@@ -51,4 +51,6 @@
  and cs_item_sk = i_item_sk
  group by i_item_id,i_item_desc,i_current_price
  order by i_item_id
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 37
+;

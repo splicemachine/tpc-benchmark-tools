@@ -76,4 +76,6 @@
  order by i_item_id
          ,i_item_desc
          ,s_state
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 17
+;

@@ -77,4 +77,6 @@ from (select item_sk
 where web_cumulative > store_cumulative
 order by item_sk
         ,d_date
-[_LIMITC];
+[_LIMITC]
+-- END OF QUERY 51
+;

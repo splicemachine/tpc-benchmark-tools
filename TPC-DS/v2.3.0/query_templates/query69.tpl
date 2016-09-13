@@ -80,4 +80,6 @@
           cd_education_status,
           cd_purchase_estimate,
           cd_credit_rating
- [_LIMITC];
+ [_LIMITC]
+-- END OF QUERY 69
+;
