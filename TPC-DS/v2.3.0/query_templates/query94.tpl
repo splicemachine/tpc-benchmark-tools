@@ -62,7 +62,7 @@ and exists (select *
 and not exists(select *
                from web_returns wr1
                where ws1.ws_order_number = wr1.wr_order_number)
-order by count(distinct ws_order_number)
+order by 1
 [_LIMITC]
 -- END OF QUERY 94
 ;
