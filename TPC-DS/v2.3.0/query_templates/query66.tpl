@@ -49,7 +49,7 @@
  	,w_state
  	,w_country
         ,ship_carriers
-        ,year
+        ,yearr
  	,sum(jan_sales) as jan_sales
  	,sum(feb_sales) as feb_sales
  	,sum(mar_sales) as mar_sales
@@ -95,7 +95,7 @@
  	,w_state
  	,w_country
  	,'[SMC.1]' || ',' || '[SMC.2]' as ship_carriers
-       ,d_year as year
+       ,d_year as yearr
  	,sum(case when d_moy = 1
  		then [SALESONE]* ws_quantity else 0 end) as jan_sales
  	,sum(case when d_moy = 2
@@ -175,7 +175,7 @@
  	,w_state
  	,w_country
  	,'[SMC.1]' || ',' || '[SMC.2]' as ship_carriers
-       ,d_year as year
+       ,d_year as yearr
  	,sum(case when d_moy = 1
  		then [SALESTWO]* cs_quantity else 0 end) as jan_sales
  	,sum(case when d_moy = 2
@@ -255,7 +255,7 @@
  	,w_state
  	,w_country
  	,ship_carriers
-       ,year
+       ,yearr
  order by w_warehouse_name
  [_LIMITC]
 -- END OF QUERY 66
