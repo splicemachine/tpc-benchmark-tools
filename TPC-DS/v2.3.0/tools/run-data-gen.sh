@@ -1,18 +1,12 @@
 #!/bin/bash
-DIR=/data/TPCDS/10
+SCALE=100
+DIR=/data/TPCDS/${SCALE}
 mkdir -p ${DIR}
 
-./dsdgen \
--DIR ${DIR} \
--QUIET Y \
--SCALE 10 \
--VERBOSE N \
--RELEASE N \
--_FILTER N \
--VALIDATE N \
--FORCE Y \
--TERMINATE Y \
--RNGSEED 0
+for i in {1..10}
+do
+    ./dsdgen -DIR ${DIR} -QUIET Y -SCALE ${SCALE} -PARALLEL 10 -CHILD ${i} -VERBOSE N -RELEASE N -_FILTER N -VALIDATE N -FORCE Y -TERMINATE Y -RNGSEED 0 &
+done
 
 
 
