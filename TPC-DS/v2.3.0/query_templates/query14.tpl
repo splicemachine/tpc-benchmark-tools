@@ -49,9 +49,9 @@ with  cross_items as
    and ss_sold_date_sk = d1.d_date_sk
    and d1.d_year between [YEAR] AND [YEAR] + 2
  intersect
- select ics.i_brand_id
-     ,ics.i_class_id
-     ,ics.i_category_id
+ select ics.i_brand_id brand_id
+     ,ics.i_class_id class_id
+     ,ics.i_category_id category_id
  from catalog_sales
      ,item ics
      ,date_dim d2
@@ -59,9 +59,9 @@ with  cross_items as
    and cs_sold_date_sk = d2.d_date_sk
    and d2.d_year between [YEAR] AND [YEAR] + 2
  intersect
- select iws.i_brand_id
-     ,iws.i_class_id
-     ,iws.i_category_id
+ select iws.i_brand_id brand_id
+     ,iws.i_class_id class_id
+     ,iws.i_category_id category_id
  from web_sales
      ,item iws
      ,date_dim d3
